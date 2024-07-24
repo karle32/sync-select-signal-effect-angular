@@ -1,1 +1,39 @@
 /* You can add global styles to this file, and also import other style files */
+h3 {
+  color: firebrick;
+}
+
+.container {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+}
+
+.select {
+  font-size: 14px;
+  width: 300px;
+  margin: 10px;
+}
+
+.indicator {
+  font-size: 14px;
+  color: cornflowerblue;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 100%;
+  margin: 0 0 auto;
+  font-size: 14px;
+}
+
+.row {
+  display: contents;
+}
+
+.label {
+  padding: 5px;
+  text-align: left;
+  color: firebrick;
+  font-weight: bold;
+}
